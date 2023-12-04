@@ -11,6 +11,7 @@ This document has been designed to explore the pipeline one connection at a time
 - Step 0: The Network Whisperer
 
 	The most important part of this project is to understand how data is going to flow from Point A to Point B. This section will answer that question, and white everything may not be obvious on the very first glance, as every step passes, information given over here will start to gain value and help you along the way.
+![image](https://github.com/Stoneiiii/CSE511-assignment/blob/main/project/project-2/Phase-2/images/image1.png)
 
 - Step 1: Order in the Chaos
 
