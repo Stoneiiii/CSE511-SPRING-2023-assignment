@@ -1,29 +1,5 @@
-# leihu3-assignment-1
+# Introduction & Background
 
-#### 1.Thanks for grading my assignment.
+In this assignment you will learn how to deal with loading large datasets into a database from scratch and then build applications on the top of this database as we move forward with the course. For this assignment we will be using a research based Reddit database.
 
-#### 2.The following commands are not included into my .sql file, because it may have some impact on the grading environment.
-postgres=#  set fsync='off';
-
-postgres=#  set synchronous_commit='off';
-
-postgres=#  set full_page_writes='off';
-
-postgres=#  set bgwriter_lru_maxpages=0;
-
-postgres=#  set wal_level='minimal';
-
-postgres=#  set archive_mode='off';
-
-postgres=#  set work_mem='64MB';
-
-postgres=#  set max_wal_senders=0;
-
-postgres=#  set maintenance_work_mem='64MB';
-
-postgres=#  set shared_buffers='128MB';
-
-#### 3.Note: my table names all have prefix: public
-
-#### 4.My process
-Create table -> import data -> set key and constraint
+Numerous scientific research has centered on Reddit in particular and is also thought of as the self-described "first page of the Internet." Technical impediments to the data acquisition still exist, despite Reddit being more open to data collection than other social media networks like Facebook and Twitter. As a result, collecting and carefully analyzing the billions of comments, millions of subreddits, and hundreds of millions of users on Reddit is time consuming. The Reddit Pushshift dataset is a result of this time consuming work and has been gathered and made available to researchers by Pushshift, a social media data gathering, analysis, and archiving tool. The Reddit dataset from Pushshift contains historical data going all the way back to Reddit's founding and is updated in real-time. This dataset has been extensively used for educational and research purposes.
